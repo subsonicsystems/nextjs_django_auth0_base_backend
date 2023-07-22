@@ -3,8 +3,8 @@
 Next.js / Django / Auth0 / Material UIを組み合わせています。
 
 このリポジトリはバックエンドです。  
-フロントエンドは
-https://github.com/subsonicsystems/nextjs_django_auth0_base_frontend
+フロントエンドは  
+https://github.com/subsonicsystems/nextjs_django_auth0_base_frontend  
 です。
 
 # 設定
