@@ -14,7 +14,7 @@ https://github.com/subsonicsystems/nextjs_django_auth0_base_frontend
 2. New API
     - `Name` API名を入力します
     - `identifier` API Audienceを入力します
-      - 例: https://<your-url>
+      - 例: https://[your-url]
     - `Signing Algorithm` `RS256`を選択します
     - [Create]をクリックします
 3. Settingsタブをクリックします
