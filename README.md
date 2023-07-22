@@ -23,5 +23,5 @@ https://github.com/subsonicsystems/nextjs_django_auth0_base_frontend
 
 ## .envの作成
 - プロジェクトルートに`.env`を作成します
-- `DOMAIN` <テナント名>.jp.auth0.com
+- `DOMAIN` [テナント名].jp.auth0.com
 - `AUDIENCE` Auth0コンソールのApplications | APIsの`API Audience`
