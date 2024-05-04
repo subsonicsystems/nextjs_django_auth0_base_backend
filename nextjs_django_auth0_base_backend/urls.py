@@ -23,5 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/public', views.public),
     path('api/private', views.private),
-    path('api/private-scoped', views.private_scoped)
+    path('api/private-scoped', views.private_scoped),
+    path('api/get_user', views.get_user),
+    path('api/update_profile', views.update_profile),
 ]
