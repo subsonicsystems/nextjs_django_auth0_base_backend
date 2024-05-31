@@ -6,6 +6,7 @@ charset-normalizer==3.3.2
 cryptography==42.0.6
 Django==5.0.4
 idna==3.7
+mysqlclient==2.2.4
 pycparser==2.22
 python-dotenv==1.0.1
 pytz==2024.1
