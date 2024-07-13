@@ -15,15 +15,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import include, path
 
 from nextjs_django_auth0_base_backend import views
 
 urlpatterns = [
+    path('api/users/', include('users.urls')),
     path('admin/', admin.site.urls),
     path('api/public', views.public),
     path('api/private', views.private),
     path('api/private-scoped', views.private_scoped),
-    path('api/get_user', views.get_user),
-    path('api/update_profile', views.update_profile),
 ]
